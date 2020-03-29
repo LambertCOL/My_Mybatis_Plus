@@ -1,7 +1,7 @@
 package cn.lamb.my_mybatis_plus;
 
 import cn.lamb.my_mybatis_plus.entity.User;
-import cn.lamb.my_mybatis_plus.mapper.UserMapper;
+import cn.lamb.my_mybatis_plus.mapper.UserMapperDefineByMe;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,7 @@ import java.util.List;
 public class SampleTest {
 
     @Autowired
-    private UserMapper userMapper;
+    private UserMapperDefineByMe userMapper;
 
     @Test
     public void testSelect() {

@@ -1,7 +1,13 @@
 # DataSource Config
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///my_mybatis_plus
     username: root
     password: 123456
+
+# Mybatis COnfig
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   #这个是可以打印sql、参数、查询结果的
+    #log-impl: org.apache.ibatis.logging.log4j.Log4jImpl   #这个不打印查询结果

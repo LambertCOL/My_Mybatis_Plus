@@ -8,5 +8,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @Date 2020/3/28 23:39
  * @Creator Lambert
  */
-public interface UserMapper extends BaseMapper<User> {
+public interface UserMapperDefineByMe extends BaseMapper<User> {
 }

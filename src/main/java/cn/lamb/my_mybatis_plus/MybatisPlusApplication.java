@@ -5,7 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("cn.lamb.my_mybatis_plus.mapper")
+//@MapperScan("cn.lamb.my_mybatis_plus.mapper")
+//@MapperScan("cn.lamb.my_mybatis_plus.sys.mapper")
 public class MybatisPlusApplication {
 
     public static void main(String[] args) {

@@ -35,5 +35,9 @@ public class User implements Serializable {
      */
     private String email;
 
-
+    public User(String name, Integer age, String email) {
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
 }
