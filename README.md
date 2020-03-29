@@ -3,7 +3,7 @@ demo环境是SpringBoot项目
 
 ### 项目结构图
 
-![image-20200329094307626](C:\Users\VULCAN\AppData\Roaming\Typora\typora-user-images\image-20200329094307626.png)
+![image-20200329094307626](img\结构图.png)
 
 ### 为演示mybatis-plus操作的前置工作
 
