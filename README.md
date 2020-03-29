@@ -3,7 +3,7 @@ demo环境是SpringBoot项目
 
 ### 项目结构图
 
-![image-20200329094307626](img\结构图.png)
+![https://github.com/LambertCOL/My_Mybatis_Plus/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE.png](https://github.com/LambertCOL/My_Mybatis_Plus/blob/master/结构图.png)
 
 ### 为演示mybatis-plus操作的前置工作
 
